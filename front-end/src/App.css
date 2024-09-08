@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.task-form {
+  margin: 1rem auto;
+  max-width: 600px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-form h2 {
+  margin-bottom: 1rem;
+}
+
+.task-form input {
+  width: calc(100% - 110px);
+  padding: 0.5rem;
+  margin-right: 10px;
+}
+
+.task-form button {
+  padding: 0.5rem 1rem;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+/* TaskList.css */
+.task-list-items {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.task-list-items li {
+  padding: 8px 0;
+}
